@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magenest\Repository\Api\DirectorRepositoryInterface"
+                type="Magenest\Repository\Model\DirectorRepository"/>
+    <preference for="Magenest\Repository\Api\Data\DirectorInterface"
+                type="Magenest\Repository\Model\Director"/>
+    <preference for="Magenest\Repository\Api\Data\DirectorSearchResultsInterface"
+                type="Magenest\Repository\Model\DirectorSearchResults"/>
+</config>
